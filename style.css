@@ -22,6 +22,16 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+@media (max-width: 480px) {
+  .icon {
+    display: none;
+  }
+}
+.icon {
+  min-width: 115px;
+  height: auto;
+  margin-right: 15px;
+}
 .temperature {
   flex-direction: column;
 }
